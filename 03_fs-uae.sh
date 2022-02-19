@@ -13,4 +13,4 @@ cp -r FS-UAE ~/
 cp fs-uae-start.sh ~/
 echo '. "$HOME/fs-uae-start.sh"' >> ~/.profile
 cd
-echo "FS-UAE will start automatically after every reboot.
+echo "FS-UAE will start automatically after every reboot."

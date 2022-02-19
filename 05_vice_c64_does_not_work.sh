@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VICE_VER=3.6.1
-sudo apt install flex bison xa65 dos2unix libsdl2-image-dev
+sudo apt install -y flex bison xa65 dos2unix libsdl2-image-dev libpng-dev
 wget https://altushost-swe.dl.sourceforge.net/project/vice-emu/releases/vice-${VICE_VER}.tar.gz
 tar xf vice-${VICE_VER}.tar.gz
 cd vice-${VICE_VER}/
