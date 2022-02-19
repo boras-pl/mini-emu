@@ -33,7 +33,7 @@ cd mini-emu
 ./02_system.sh
 ./03_fs-uae.sh 
 # and optionally a PC DOS emulator:
-./ 04_dosbox.sh
+./04_dosbox.sh
 ```
 Known issues:
 - it is not possible to run fs-uae-launcher, so any configs must be prepared manually or on another system.
