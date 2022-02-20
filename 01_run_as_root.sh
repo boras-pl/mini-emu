@@ -18,7 +18,7 @@ cp -r etc/systemd/system/getty@tty1.service.d /etc/systemd/system/
 
 # SDL2
 apt install -y git build-essential ccache
-apt-get build-dep libsdl2
+apt-get build-dep -y libsdl2
 wget https://www.libsdl.org/release/SDL2-2.0.20.tar.gz
 tar xf SDL2-2.0.20.tar.gz
 cd SDL2-2.0.20/
