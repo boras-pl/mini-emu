@@ -31,7 +31,7 @@ x64sc
 ```
 Press F12 for menu.
 
-6. Known issues:
+8. Known issues:
 - it is not possible to run fs-uae-launcher, so any configs must be prepared manually or on another system.
 - 60Hz only - I can not set 50Hz via KMS/DRM, yet.
 - there is a bug when some (e.g. RTX) nvidia cards are used: black screen when we close an application, that is why I put 'clear' in the starting script.
