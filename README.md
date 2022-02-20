@@ -8,9 +8,8 @@ Print this tutorial, seriously! Or open it on your smartphone, at least.
 - DO NOT install any windowing (Gnome, etc.) systems.
 See attached screenshots if any doubts.
 3. Boot and login as root
-4. Execute commands
+4. Execute following commands. You will be prompted for a password for the 'emu' user.
 ```
-# It switches to root
 apt update
 apt upgrade
 apt install -y git
