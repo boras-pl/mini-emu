@@ -40,8 +40,10 @@ wget http://ftp.amigascne.org/pub/amiga/Groups/S/Spaceballs/Spaceballs-StateOfTh
 cd ../..
 cp -r FS-UAE /home/emu/
 cp fs-uae-start.sh /home/emu/
+cp -r .config /home/emu/
 chown -R emu:emu /home/emu/FS-UAE
 chown    emu:emu /home/emu/fs-uae-start.sh
+chown -R emu:emu /home/emu/.config
 
 echo '. "$HOME/fs-uae-start.sh"' >> /home/emu/.profile
 echo "FS-UAE will start automatically after every reboot."
