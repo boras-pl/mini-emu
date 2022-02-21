@@ -8,9 +8,8 @@ Print this tutorial, seriously! Or open it on your smartphone, at least.
 - DO NOT install any windowing (Gnome, etc.) systems.
 See attached screenshots if any doubts.
 3. Boot and login as root
-4. Execute commands
+4. Execute following commands. You will be prompted for a password for the 'emu' user.
 ```
-# It switches to root
 apt update
 apt upgrade
 apt install -y git
@@ -35,5 +34,4 @@ Press F12 for menu.
 - it is not possible to run fs-uae-launcher, so any configs must be prepared manually or on another system.
 - 60Hz only - I can not set 50Hz via KMS/DRM, yet.
 - there is a bug when some (e.g. RTX) nvidia cards are used: black screen when we close an application, that is why I put 'clear' in the starting script.
-- black screen on Vice C64 on nvidia cards. It should work on Intel iGPU
 - no idea how it works on Radeon cards.
